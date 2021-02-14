@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    font-family: 'newsreader';
+}
+
+header {
+    background-color: #7F4F20;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    position: fixed;
+    width: 100%;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav span {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#logo {
+    height: 80px;
+    margin-right: 20px;
+}
+
+#logo_and_title {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    height: 100vh;
+    background-image: url("./images/restaurant.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color : white;
+}
+
+main h1 {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px 40px;
+    margin-top: 300px;
+    margin-left: 150px;
+}
