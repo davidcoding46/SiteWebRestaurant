@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -57,9 +61,7 @@ main h1 {
 }
 
 section{
-    padding-left: 20%;
-    padding-right: 20%;
-    padding: 50px;
+    padding: 50px 12%;
 }
 
 section h1{
@@ -101,3 +103,84 @@ section h1{
     margin: 0px auto;
 }
 
+.ligne2{
+    width: 200px;
+    height: 0px;
+    border-top: 3px solid #7F4F20;
+    margin-bottom: 40px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
+.ligne3{
+    width: 200px;
+    height: 0px;
+    border-top: 3px solid #7F4F20;
+}
+
+#imageplat{
+    background-image: url("./images/iskender.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+#infoscontainers {
+    display: flex;
+}
+
+#infoscontainers h2 {
+    color: #7F4F20;
+}
+
+#infoscontainers > div {
+    flex: 1;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+form input[type="text"],form input[type="email"],form textarea{
+    width: 100%;
+    border: 0px;
+    font-size: 20px;
+    padding: 15px;
+}
+
+form input[type="button"]{
+    border: 0px;
+    font-size: 20px;
+    padding: 15px 30px;
+    margin: 20px auto;
+    display: block;
+    background-color: #7F4F20;
+    color: white;
+}
+
+footer{
+    color: white;
+    background-color: #7F4F20;
+    padding: 60px;
+}
+
+footer p{
+    text-align: center;
+}
+
+.anchor{
+    content: "";
+    display: block;
+    height: 170px;
+    margin: -170px 0 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
